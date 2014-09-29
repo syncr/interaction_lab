@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jquery Lab</title>
+    <link rel="stylesheet" href="css/app.css" />
+    <link rel="bower_components/jquery-ui/jquery-ui.min.css"></script>
+    <link rel="bower_components/jquery-ui/jquery-ui.theme.min.css"></script>
+
+  </head>
+  <body>
+
+    <div class="row">
+      <div class="large-12 columns">
+        <h1>Testing Jquery</h1>
+        <h3>Effects Basics</h2>
+        <ul class="small-block-grid-1 medium-block-grid-2">
+          <li>
+            <h5 class='title'>Toggle Show/Hide</h5>
+            <div class='item'>
+              <span class='block' id='clicker1'>Click Me</span>
+              <span class='block' id='target1'>Target</span>
+            </div>
+          </li>
+          <li>
+            <h5 class='title'>Toggle CSS Visibility</h5>
+            <div class='item'>
+              <span class='block' id='clicker2'>Click Me</span>
+              <span class='block' id='target2'>Target</span>
+            </div>
+          </li>
+          <li>
+            <h5 class='title'>Animate sideways</h5>
+            <div class='item slide'>
+              <span class='block inner' id='slide'>Click Me</span>
+            </div>
+          </li>
+          <li>
+            <h5 class='title'>Color Animation</h5>
+            <div class='item'>
+              <span class='block' id='color'>Click Me</span>
+            </div>
+          </li>
+          <li>
+            <h5 class='title'>FadeDown/FadeUp</h5>
+            <div class='item'>
+              <span class='block' id='extra'>Click Me</span>
+              <span class='block' id='fade'>Fade Me</span>
+
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="large-12 columns">
+        <h1>Testing Jquery UI</h1>
+        <h2>Interactions</h2>
+        <ul class="small-block-grid-1 medium-block-grid-2">
+          <li>
+            <h5 class='title'>Draggable</h5>
+            <div class='item'>
+              <span class='block drag'>Drag</span>
+            </div>
+          </li>
+
+          <li>
+            <h5 class='title'>Droppable</h5>
+            <div class='item'>
+              <span class='block drag'>Drag</span>
+              <span class='block target' id='drop'>Drag to me</span>
+            </div>
+          </li>
+
+          <li>
+            <h5 class='title'>Resizable</h5>
+            <div class='item'>
+              <div class='block' id='resizable'>Resize</div>
+            </div>
+          </li>
+
+          <li>
+            <h5 class='title'>Selectable</h5>
+            <ul class='item' id='selectable'>
+              <li class='block'>1</li>
+              <li class='block'>2</li>
+              <li class='block'>3</li>
+              <li class='block'>4</li>
+              <li class='block'>5</li>
+              <li class='block'>6</li>
+            </ul>
+          </li>
+
+          <li>
+            <h5 class='title'>Sortable (Drag to change order) </h5>
+            <ul class='item' id='sortable'>
+              <li class='block'>1</li>
+              <li class='block'>2</li>
+              <li class='block'>3</li>
+              <li class='block'>4</li>
+              <li class='block'>5</li>
+              <li class='block'>6</li>
+            </ul>
+          </li>
+        </ul>
+
+        <h2>Widgets</h2>
+        <ul class="small-block-grid-1 medium-block-grid-2">
+          <li>
+            <h5 class='title'>Accordion (Horizontal)</h5>
+            <ul class='item' id= 'accordion'>
+              <h5 class='block'>1</h5>
+              <div>
+                <img src='http://placekitten.com/g/67/67'/>
+              </div>
+              <h5 class='block'>2</h5>
+              <div>
+                <img src='http://placekitten.com/g/67/67'/>
+              </div>
+              <h5 class='block'>3</h5>
+              <h5 class='block'>4</h5>
+            </ul>
+          </li>
+          <li>
+            <h5 class='title'>Dialog Box</h5>
+            <div class='item'>
+              <div class='block' id='dialog-open'>Click</div>
+              <div id='dialog'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem illo sit ex corporis accusantium saepe officia sapiente hic fugiat dicta, aperiam, minima voluptate.</div>
+            </div>
+          </li>
+          <li>
+            <h5 class='title'>Tooltip</h5>
+            <div class='item'>
+              <div class='block' id='tooltip'><span>Hover</span></div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <script src="bower_components/modernizr/modernizr.js"></script>
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/jquery-ui/jquery-ui.min.js"></script>
+    <script src="bower_components/foundation/js/foundation.min.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
